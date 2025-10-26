@@ -1,0 +1,19 @@
+{
+  "name": "form23devs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GromoZeus/form23devs.git"
+  },
+  "author": "Евгений Гаммер",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GromoZeus/form23devs/issues"
+  },
+  "homepage": "https://github.com/GromoZeus/form23devs#readme",
+  "description": ""
+}
