@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registering a new user</title>
 </head>
+
 <body>
-  
+  <section>
+    <h2>Регистрация нового пользователя</h2>
+    <form action="/register" method="post">
+      <p>
+        <label for="first-name">Имя:</label><br>
+        <input id="first-name" type="text" name="first-name" placeholder="Имя" autofocus required>
+      </p>
+      <p>
+        <label for="last-name">Фамилия:</label><br>
+        <input id="last-name" type="text" name="last-name" placeholder="Фамилия" required>
+      </p>
+      <p>
+        <label for="email">Email:</label><br>
+        <input id="email" type="text" name="email" placeholder="Email" required>
+      </p>
+      <p>
+        <label for="password">Пароль:</label><br>
+        <input id="password" type="password" name="password" placeholder="Пароль" required>
+      </p>
+      <p>
+        <label for="password-confirm">Подтверждение пароля:</label><br>
+        <input id="password-confirm" type="password" name="password-confirm" placeholder="Подтверждение пароля"
+          required>
+      </p>
+      <p>
+        <label for="birth-day">Дата рождения:</label><br>
+        <input id="birth-day" type="date" name="birth-day" required>
+      </p>
+      <button type="submit">Отправить</button>
+    </form>
+  </section>
 </body>
+
 </html>
